@@ -2,7 +2,7 @@ const Store = Backbone.Model.extend({});
 
 const StoreCollection = Backbone.Collection.extend({
 	model: Store,
-	url: "/static/stores.json"	
+	url: "./static/stores.json"	
 });
 
 module.exports = {
